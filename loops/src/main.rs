@@ -20,4 +20,9 @@ fn main() {
         println!("{}", z);
     }
     println!("For is ended");
+
+    let a = [1, 2, 3, 4];
+    for x in a.iter() {
+        println!("{}", x);
+    }
 }
